@@ -297,10 +297,18 @@ nav {
             flex: 0 0 100%;
             margin-bottom: 20px;
         }
+        @include breakpoint (sm) {
+            flex-wrap: wrap;
+        }
     }
     &-list {
         list-style-type: none;
         padding-left: 0;
+        @include breakpoint (sm) {
+            flex-wrap: wrap;
+            flex: 0 0 49%;
+            margin-bottom: 20px;
+        }
         &-title {
             font-size: 10px;
             font-weight: 700;
@@ -313,6 +321,21 @@ nav {
             text-decoration: none;
             font-size: 14px;
         }
+    }
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    font-size: 14px;
+    @include breakpoint (sm) {
+        flex-direction: column;
+    }
+    &-link {
+        color: $dark;
+        text-decoration: none;
     }
 }
 

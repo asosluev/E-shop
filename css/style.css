@@ -315,9 +315,21 @@ body {
     margin-bottom: 20px;
   }
 }
+@media (max-width: 576px) {
+  .footer-nav {
+    flex-wrap: wrap;
+  }
+}
 .footer-list {
   list-style-type: none;
   padding-left: 0;
+}
+@media (max-width: 576px) {
+  .footer-list {
+    flex-wrap: wrap;
+    flex: 0 0 49%;
+    margin-bottom: 20px;
+  }
 }
 .footer-list-title {
   font-size: 10px;
@@ -330,6 +342,23 @@ body {
   color: rgb(128, 125, 125);
   text-decoration: none;
   font-size: 14px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  font-size: 14px;
+}
+@media (max-width: 576px) {
+  .footer-bottom {
+    flex-direction: column;
+  }
+}
+.footer-bottom-link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
 }
 
 .toggle {

@@ -28,6 +28,12 @@ body {
   padding-top: 46px;
 }
 
+@media (max-width: 992px) {
+  nav {
+    display: none;
+  }
+}
+
 .nav {
   display: flex;
   list-style: none;
@@ -283,14 +289,31 @@ body {
   justify-content: space-between;
   padding: 30px 0;
 }
+@media (max-width: 992px) {
+  .footer {
+    flex-wrap: wrap;
+  }
+}
 .footer-logo {
   flex: 0 0 40%;
+}
+@media (max-width: 992px) {
+  .footer-logo {
+    flex: 0 0 100%;
+    margin-bottom: 20px;
+  }
 }
 .footer-nav {
   flex: 0 0 60%;
   display: flex;
   justify-content: space-between;
   color: white;
+}
+@media (max-width: 992px) {
+  .footer-nav {
+    flex: 0 0 100%;
+    margin-bottom: 20px;
+  }
 }
 .footer-list {
   list-style-type: none;

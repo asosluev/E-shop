@@ -305,10 +305,10 @@ body {
   }
 }
 .collection-man {
-  background-image: url(/img/man.png);
+  background-image: url(../img/man.png);
 }
 .collection-woman {
-  background-image: url(/img/woman.png);
+  background-image: url(../img/woman.png);
 }
 .collection-title {
   font-size: 24px;
@@ -374,10 +374,10 @@ body {
   }
 }
 .product-item::before {
-  background-image: url("/img/icons8.png");
+  background-image: url("../img/icons8.png");
 }
 .product-item::after {
-  background-image: url("/img/icons8.png");
+  background-image: url("../img/icons8.png");
 }
 .product-title {
   font-weight: 600;

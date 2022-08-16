@@ -271,10 +271,10 @@ nav {
         }
     }
     &-man {
-        background-image: url(/img/man.png);
+        background-image: url(../img/man.png);
     }
     &-woman {
-        background-image: url(/img/woman.png);
+        background-image: url(../img/woman.png);
     }
     &-title {
         font-size: 24px;
@@ -328,10 +328,10 @@ nav {
             }
         }
         &::before {
-            background-image: url("/img/icons8.png");
+            background-image: url("../img/icons8.png");
         }
         &::after {
-            background-image: url("/img/icons8.png");
+            background-image: url("../img/icons8.png");
         }
     }
     &-title {

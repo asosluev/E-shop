@@ -13,10 +13,10 @@ body {
   }
 }
 .page-light {
-  background-color: rgb(201, 246, 64);
+  background-color: #c9f640;
 }
 .page-dark {
-  background-color: rgb(0, 0, 0);
+  background-color: black;
 }
 
 .wrapper {
@@ -60,7 +60,7 @@ body {
   margin-right: 52px;
 }
 .nav-link {
-  color: rgb(0, 0, 0);
+  color: black;
   text-decoration: none;
 }
 .nav-info .nav-item {
@@ -85,7 +85,7 @@ body {
 }
 
 .cart {
-  background-image: url(/img/353439-basket-buy-cart.svg);
+  background-image: url(../img/353439-basket-buy-cart.svg);
   padding-left: 50px;
   display: block;
   height: 30px;
@@ -99,11 +99,11 @@ body {
   outline: none;
 }
 .cart-count {
-  background-image: url(/img/back_arrow_icon_131563.svg);
+  background-image: url(../img/back_arrow_icon_131563.svg);
   background-repeat: no-repeat;
   background-position: 0 center;
   height: 20px;
-  color: white;
+  color: #ffff;
   font-size: 12px;
   font-weight: 700;
   padding: 10px 17px 10px 23px;
@@ -123,7 +123,7 @@ body {
 
 .btn {
   background-color: #d7b399;
-  color: white;
+  color: #ffff;
   font-size: 16px;
   text-transform: uppercase;
   text-decoration: none;
@@ -219,7 +219,7 @@ body {
 .box-price-new {
   font-size: 24px;
   font-weight: 700;
-  color: rgb(180, 0, 0);
+  color: #b40000;
   margin-top: 17px;
 }
 @media (max-width: 576px) {
@@ -240,7 +240,7 @@ body {
 
 .notice {
   text-align: center;
-  color: white;
+  color: #ffff;
   padding: 64px 0 54px;
 }
 @media (max-width: 576px) {
@@ -414,7 +414,7 @@ body {
   flex: 0 0 60%;
   display: flex;
   justify-content: space-between;
-  color: white;
+  color: #ffff;
 }
 @media (max-width: 992px) {
   .footer-nav {
@@ -449,7 +449,7 @@ body {
   }
 }
 .footer-list-link {
-  color: rgb(128, 125, 125);
+  color: #807d7d;
   text-decoration: none;
   font-size: 14px;
 }
@@ -472,7 +472,7 @@ body {
   }
 }
 .footer-bottom-link {
-  color: rgb(0, 0, 0);
+  color: black;
   text-decoration: none;
 }
 
@@ -482,7 +482,7 @@ body {
   z-index: 9999;
 }
 .toggle-menu {
-  background-color: rgb(0, 0, 0);
+  background-color: black;
   width: 24px;
   height: 24px;
   display: flex;
